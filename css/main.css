@@ -13,7 +13,7 @@
 .frame3 {
     height: 30vh;
     width: 100vh;
-    background-color: white;
+    background-color: rgb(240, 233, 233);
     padding: 0px;
     margin: 0px;
 
@@ -33,7 +33,12 @@
 
 
 .pic_item { grid-area: pic; }
-.desc_item { grid-area: desc; }
+.desc_item { 
+    grid-area: desc; 
+    display: flex;
+    align-items :left;
+    justify-content: left;
+}
 .rate_item { grid-area: rate; }
 
 .grid-container-company-info {
@@ -42,7 +47,7 @@
       'pic desc rate'
       'pic desc rate';
     grid-gap: 10px;
-    padding: 0px;
+    padding: 20px;
     margin: 0px;
     width:100vw;
    
