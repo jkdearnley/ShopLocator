@@ -13,8 +13,9 @@
 .frame3 {
     height: 30vh;
     width: 100vh;
-    background-color: yellow;
-
+    background-color: rgb(245, 245, 245);
+    padding: 0px;
+    margin: 0px;
 
 }
 
@@ -29,12 +30,15 @@
     padding: 0;
     background-color: #D5E8EB;
 }
-=======
-    
-}
+
 
 .pic_item { grid-area: pic; }
-.desc_item { grid-area: desc; }
+.desc_item { 
+    grid-area: desc; 
+    display: flex;
+    align-self: flex-start;
+ 
+}
 .rate_item { grid-area: rate; }
 
 .grid-container-company-info {
@@ -43,7 +47,10 @@
       'pic desc rate'
       'pic desc rate';
     grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
+    padding: 20px;
+    margin: 0px;
+    width:100vw;
+   
   }
+
 
