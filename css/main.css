@@ -1,5 +1,18 @@
-.test {
+.frame1 {
     height: 100vh;
     width: 100vh;
     background-color: red;
+}
+
+.frame2 {
+    height: 80vh;
+    width: 100vh;
+    background-color: green;
+}
+
+.frame3 {
+    height: 30vh;
+    width: 100vh;
+    background-color: yellow;
+    
 }
