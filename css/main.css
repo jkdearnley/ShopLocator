@@ -13,11 +13,9 @@
 .frame3 {
     height: 30vh;
     width: 100vh;
-    background-color: #2196F3;
+    background-color: white;
     padding: 0px;
     margin: 0px;
-    background-color: yellow;
-
 
 }
 
@@ -47,7 +45,7 @@
     padding: 0px;
     margin: 0px;
     width:100vw;
-    background-color: #2196F3;
+   
   }
 
 
