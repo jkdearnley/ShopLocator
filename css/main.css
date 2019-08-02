@@ -15,6 +15,7 @@
     width: 100vh;
     background-color: yellow;
 
+
 }
 
 #mymap {
@@ -28,3 +29,21 @@
     padding: 0;
     background-color: #D5E8EB;
 }
+=======
+    
+}
+
+.pic_item { grid-area: pic; }
+.desc_item { grid-area: desc; }
+.rate_item { grid-area: rate; }
+
+.grid-container-company-info {
+    display: grid;
+    grid-template-areas:
+      'pic desc rate'
+      'pic desc rate';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
