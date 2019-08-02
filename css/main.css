@@ -17,3 +17,16 @@
     
 }
 
+.pic_item { grid-area: pic; }
+.desc_item { grid-area: desc; }
+.rate_item { grid-area: rate; }
+
+.grid-container-company-info {
+    display: grid;
+    grid-template-areas:
+      'pic desc rate'
+      'pic desc rate';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
