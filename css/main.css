@@ -13,7 +13,7 @@
 .frame3 {
     height: 30vh;
     width: 100vh;
-    background-color: rgb(240, 233, 233);
+    background-color: rgb(245, 245, 245);
     padding: 0px;
     margin: 0px;
 
@@ -36,8 +36,8 @@
 .desc_item { 
     grid-area: desc; 
     display: flex;
-    align-items :left;
-    justify-content: left;
+    align-self: flex-start;
+ 
 }
 .rate_item { grid-area: rate; }
 
